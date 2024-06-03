@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+.Logo{
+    width: 125px;
+    height: auto;
+    background-color: #1E984F;
+}
+.Social{
+    background-color: #1E984F;
+    width: 20px;
+}
