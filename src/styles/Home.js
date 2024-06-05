@@ -26,14 +26,14 @@ export const Div1 = styled.div`
     z-index: 1;
     opacity: 0.9;
     left: 20%;
-    top: 20%;
+    top: 30%;
     box-shadow: 1px 1px 20px black;
     text-align: center;
     padding-top: 115px;
     font-size: 50px;
 `
 export const Div2 = styled.div`
-    background-color: ${Cor.Dark_Green};
+    background-color: ${Cor.vibration_Green};
     width: 300px;
     height: 300px;
     border-radius: 50px;
@@ -41,14 +41,14 @@ export const Div2 = styled.div`
     z-index: 1;
     opacity: 0.9;
     left: 60%;
-    top: 20%;
+    top: 30%;
     box-shadow: 1px 1px 20px black;
     text-align: center;
     padding-top: 115px;
     font-size: 50px;
 `
 export const Div3 = styled.div`
-    background-color: ${Cor.Dark_Green};
+    background-color: ${Cor.vibration_Green};
     width: 300px;
     height: 300px;
     border-radius: 50px;
