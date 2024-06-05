@@ -43,6 +43,9 @@ export const Div2 = styled.div`
     left: 60%;
     top: 20%;
     box-shadow: 1px 1px 20px black;
+    text-align: center;
+    padding-top: 115px;
+    font-size: 50px;
 `
 export const Div3 = styled.div`
     background-color: ${Cor.Dark_Green};
@@ -55,6 +58,9 @@ export const Div3 = styled.div`
     left: 20%;
     top: 70%;
     box-shadow: 1px 1px 20px black;
+    text-align: center;
+    padding-top: 115px;
+    font-size: 50px;
 `
 export const Div4 = styled.div`
     background-color: ${Cor.Blue};
@@ -67,4 +73,7 @@ export const Div4 = styled.div`
     left: 60%;
     top: 70%;
     box-shadow: 1px 1px 20px black;
+    text-align: center;
+    padding-top: 115px;
+    font-size: 50px;
 `
