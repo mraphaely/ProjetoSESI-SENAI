@@ -1,4 +1,4 @@
-import { DivMain, CampInp, Ra, Login, Enviar } from "../styles/PagRa"
+import { Main, CampInp, Ra, Login, Enviar } from "../styles/PagRa"
 import  {Fundo} from '../styles/Home';
 import HeaderFilter from "../components/HeaderFilter"
 import Footer from "../components/Footer"
@@ -10,7 +10,7 @@ const PagRa = () => {
    <Fundo>
     <img src={Imagem} alt="Fundo" />
    </Fundo>
-   <DivMain>
+   <Main>
     <Login>
      Login
     </Login>
@@ -21,7 +21,7 @@ const PagRa = () => {
     <Enviar>
      Enviar
     </Enviar>
-   </DivMain>
+   </Main>
    <Footer />
   </>
  )

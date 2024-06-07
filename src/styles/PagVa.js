@@ -1,49 +1,52 @@
 import { styled } from "styled-components";
 import {Cor} from "../styles/App"
 
-export const Main = styled.main`
+export const MainNotificada = styled.main`
 height: 350px;
 width: 350px;
-background-color: ${Cor.Green};
+background-color: ${Cor.Red};
 display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
-position: relative;
+position: relative; 
+margin: 0 auto;
+z-index: 1;
+bottom: 380px;
 padding-top: 50px;
 border-radius: 50px;
 box-shadow: 1px 1px 20px black;
 `
 
-export const Login = styled.h1`
+export const Alerta = styled.h1`
 color: ${Cor.White};
-background-color: ${Cor.Green};
+background-color: ${Cor.Red};
 `
 
-export const Ra = styled.h4`
+export const Aviso = styled.p`
 color: white;
-background-color: ${Cor.Green};
+background-color: ${Cor.Red};
 margin-top: 28px;
-margin-right: 40px;
+width: 200px;
+padding: 20px;
 `
-export const CampInp = styled.input`
-border-radius: 5px;
-background-color: ${Cor.White};
-margin-top: 15px;
-border-color: ${Cor.White};
-height: 25px;
-width: 210px;
-`
-
-export const Enviar = styled.button`
+export const Voltar = styled.button`
 height: 25px;
 width: 80px;
 margin-top: 28px;
-color: ${Cor.Dark_Green};
+font-size: large;
+color: ${Cor.White};
 border-radius: 5px;
-border: none;
-`
+border: 2px;
+border-color:  ${Cor.White};
+background-color: ${Cor.Red};
 
+&:hover{
+ background-color: ${Cor.White};
+ color: ${Cor.Red};
+ box-shadow: 1px 1px 20px white;
+}
+`
 export const Fundo = styled.div `
     display: flex;
     justify-content: flex-end;

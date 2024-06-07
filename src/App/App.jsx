@@ -5,10 +5,12 @@ import Home from '../Home/Home';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Fundo, Suporte} from '../styles/Home';
 import Sobre from "../Sobre/Sobre";
-import Contato from "../Contato/Contato";
 import Imagem from '../assets/ImgFundo.svg'
 import Suport from '../assets/Suporte.svg'
-// import PagRa from '../PagRa/PagRa';
+import Garrafas from '../achadosEperdidos/Garrafas';
+import Roupas from '../achadosEperdidos/Roupas';
+import Materiais from '../achadosEperdidos/Materiais';
+import Outros from '../achadosEperdidos/Outros';
 
 const App = () => {
     return(
@@ -24,7 +26,11 @@ const App = () => {
         <Routes>
                 <Route path="/Home" element={<Home/>}  className='links'/>
                 <Route path="/Sobre" element={<Sobre/>}  className='links'/>
-                <Route path="/Contato" element={<Contato/>}  className='links'/>
+
+                <Route path="/Garrafas" element={<Garrafas/>}  className='LinkD'/>
+                <Route path="/Roupas" element={<Roupas/>}  className='LinkD'/>
+                <Route path="/Materiais" element={<Materiais/>}  className='LinkD'/>
+                <Route path="/Outros" element={<Outros/>}  className='LinkD'/>
         </Routes>  
         <Footer/>
         </BrowserRouter>
