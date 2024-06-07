@@ -3,10 +3,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App/App.jsx'
 import './index.css'
 
-import PagRa from './PagRa/PagRa.jsx'
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <PagRa />
+    <App />
   </React.StrictMode>,
 )

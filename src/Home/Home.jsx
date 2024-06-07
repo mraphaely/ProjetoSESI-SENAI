@@ -1,5 +1,6 @@
 // import Image from '../assets/ImgFundo.svg'
 // import Suport from '../assets/Suporte.svg'
+import { Link } from 'react-router-dom';
 import { Fundo, Suporte, Div1, Div2, Div3, Div4 } from '../styles/Home';
 
 const Home = () => {
@@ -7,10 +8,10 @@ const Home = () => {
     <>
     <Fundo>
     {/* <img src={Image} alt="Logo SESI SENAI"/> */}
-    <Div1><a href="" className='LinkA'>Garrafas</a></Div1>
-    <Div2><a href="" className='LinkA'>Roupas</a></Div2>
-    <Div3><a href="" className='LinkA'>Materias</a></Div3>
-    <Div4><a href="" className='LinkA'>Outros</a></Div4>
+    <Div1><Link to={'Garrafas'} className="LinkD">Garrafas</Link></Div1>
+    <Div2><Link to={'Roupas'}className="LinkD">Roupas</Link></Div2>
+    <Div3><Link to={'Materiais'}className="LinkD">Materiais</Link></Div3>
+    <Div4><Link to={'Outros'}className="LinkD">Outros</Link></Div4>
     </Fundo>
     <Suporte>
     {/* <img src={Suport} alt="Logo SESI SENAI"/> */}
