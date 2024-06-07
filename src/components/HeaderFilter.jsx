@@ -1,7 +1,8 @@
 import { Card } from '../styles/Header';
 import logoSS  from '../assets/LogoSS.svg'
+// import { Link } from "react-router-dom";
 
-const Header = () => {
+const HeaderFilter = () => {
     return(
         <>
         <Card>
@@ -12,4 +13,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default HeaderFilter;
