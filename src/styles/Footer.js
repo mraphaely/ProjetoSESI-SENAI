@@ -1,15 +1,12 @@
 import styled from "styled-components"
 import { Cor } from "./App";
 
-export const Card = styled.footer `
-    position: fixed;
-    display: inline;
-    width: 100%;
-    float: left;
-    bottom: 0;
-    z-index: 10;
-`
 export const Rodape = styled.footer `
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+`
+export const Card = styled.div `
     background-color : ${Cor.vibration_Green};
     align-items: center;
     justify-content: center;

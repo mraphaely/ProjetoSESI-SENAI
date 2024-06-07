@@ -5,22 +5,16 @@ import Insta  from '../assets/InstaGram.svg'
 
 const Footer = () => {
     return(
-        <Card>
+        <Rodape>
             <Info>
-            <a href="https://www.whatsapp.com" className='Social'>
                 <img src={Wpp} alt="WhatsApp" className='Social'/>
-            </a>
-            <a href="https://www.facebook.com/sesialagoas" className='Social'>
                 <img src={Face} alt="FaceBook" className='Social'/>
-            </a>  
-            <a href="https://www.instagram.com/sesialagoas" className='Social'>  
                 <img src={Insta} alt="InstaGram" className='Social'/>
-            </a>
             </Info>
-            <Rodape>
+            <Card>
                 <RodapeText>Achados & Perdidos &copy;2024 - Todos os direitos reservados</RodapeText>
-            </Rodape>
-        </Card>
+            </Card>
+        </Rodape>
     )
 }
 
