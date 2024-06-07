@@ -12,6 +12,8 @@ import Roupas from '../achadosEperdidos/Roupas';
 import Materiais from '../achadosEperdidos/Materiais';
 import Outros from '../achadosEperdidos/Outros';
 
+
+
 const App = () => {
     return(
         <>
@@ -27,10 +29,11 @@ const App = () => {
                 <Route path="/Home" element={<Home/>}  className='links'/>
                 <Route path="/Sobre" element={<Sobre/>}  className='links'/>
 
-                <Route path="/Garrafas" element={<Garrafas/>}  className='LinkD'/>
-                <Route path="/Roupas" element={<Roupas/>}  className='LinkD'/>
-                <Route path="/Materiais" element={<Materiais/>}  className='LinkD'/>
-                <Route path="/Outros" element={<Outros/>}  className='LinkD'/>
+                <Route path="Home/Garrafas" element={<Garrafas/>}  className='LinkD'/>
+                <Route path="Home/Roupas" element={<Roupas/>}  className='LinkD'/>
+                <Route path="Home/Materiais" element={<Materiais/>}  className='LinkD'/>
+                <Route path="Home/Outros" element={<Outros/>}  className='LinkD'/>
+ 
         </Routes>  
         <Footer/>
         </BrowserRouter>

@@ -6,12 +6,11 @@ const Header = () => {
     return(
         <>
         <Card>
-        
-        
-          <Link to={'home'} className='links'>  
+          
+          <Link to={'home'} className='links'>
           <img src={logoSS} alt="Logo SESI SENAI" className='Logo' />
           </Link>
-
+            {/* <span className='links'> | </span> */}
             <Link to={'sobre'}  className='links'> Sobre </Link>
         </Card>
         </>
