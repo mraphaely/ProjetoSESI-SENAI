@@ -29,5 +29,5 @@ export const Info = styled.section `
 export const RodapeText = styled.p `
     color: ${Cor.White};
     background-color: ${Cor.vibration_Green};
-    font-size: 10px;
+    font-size: 20px;
 `

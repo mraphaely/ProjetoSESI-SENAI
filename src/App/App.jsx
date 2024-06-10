@@ -29,10 +29,10 @@ const App = () => {
                 <Route path="/Home" element={<Home/>}  className='links'/>
                 <Route path="/Sobre" element={<Sobre/>}  className='links'/>
 
-                <Route path="Home/Garrafas" element={<Garrafas/>}  className='LinkD'/>
-                <Route path="Home/Roupas" element={<Roupas/>}  className='LinkD'/>
-                <Route path="Home/Materiais" element={<Materiais/>}  className='LinkD'/>
-                <Route path="Home/Outros" element={<Outros/>}  className='LinkD'/>
+                <Route path="Home/Garrafas" element={<Garrafas/>}  className='links'/>
+                <Route path="Home/Roupas" element={<Roupas/>}  className='links'/>
+                <Route path="Home/Materiais" element={<Materiais/>}  className='links'/>
+                <Route path="Home/Outros" element={<Outros/>}  className='links'/>
  
         </Routes>  
         <Footer/>

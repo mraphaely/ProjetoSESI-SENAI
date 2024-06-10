@@ -8,6 +8,13 @@ export const Fundo = styled.div `
     background-color: ${Cor.ice_White};
 
 `
+export const ContainerBox = styled.div `
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+
+`
 export const Suporte = styled.section `
     display: flex;
     justify-content: flex-end;
@@ -26,11 +33,15 @@ export const Div1 = styled.div`
     z-index: 1;
     opacity: 0.9;
     left: 20%;
-    top: 30%;
+    top: 25%;
     box-shadow: 1px 1px 20px black;
     text-align: center;
     padding-top: 115px;
     font-size: 50px;
+    &:hover{
+        background-color: ${Cor.Black};
+        box-shadow: 1px 1px 20px yellow;
+    }
 `
 export const Div2 = styled.div`
     background-color: ${Cor.vibration_Green};
@@ -41,11 +52,15 @@ export const Div2 = styled.div`
     z-index: 1;
     opacity: 0.9;
     left: 60%;
-    top: 30%;
+    top: 25%;
     box-shadow: 1px 1px 20px black;
     text-align: center;
     padding-top: 115px;
     font-size: 50px;
+    &:hover{
+        background-color: ${Cor.Black};
+        box-shadow: 1px 1px 20px green;
+    }
 `
 export const Div3 = styled.div`
     background-color: ${Cor.vibration_Green};
@@ -56,11 +71,15 @@ export const Div3 = styled.div`
     z-index: 1;
     opacity: 0.9;
     left: 20%;
-    top: 70%;
+    top: 60%;
     box-shadow: 1px 1px 20px black;
     text-align: center;
     padding-top: 115px;
     font-size: 50px;
+    &:hover{
+        background-color: ${Cor.Black};
+        box-shadow: 1px 1px 20px green;
+    }
 `
 export const Div4 = styled.div`
     background-color: ${Cor.Blue};
@@ -71,9 +90,13 @@ export const Div4 = styled.div`
     z-index: 1;
     opacity: 0.9;
     left: 60%;
-    top: 70%;
+    top: 60%;
     box-shadow: 1px 1px 20px black;
     text-align: center;
     padding-top: 115px;
     font-size: 50px;
+    &:hover{
+        background-color: ${Cor.Black};
+        box-shadow: 1px 1px 20px yellow;
+    }
 `

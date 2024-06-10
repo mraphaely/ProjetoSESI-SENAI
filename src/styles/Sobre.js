@@ -8,9 +8,9 @@ export const Caixa = styled.div`
     border-radius: 50px;
     position: absolute;
     z-index: 1;
-    opacity: 0.9;
-    left: 20%;
+    left: 30%;
     top: 20%;
+    opacity: 0.9;
     box-shadow: 1px 1px 20px black;
     text-align: center;
     padding-top: 115px;

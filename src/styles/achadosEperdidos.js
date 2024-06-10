@@ -35,16 +35,20 @@ export const Item = styled.div`
   padding: 10px;
   width: 45%;
   box-shadow: 1px 1px 20px black;
+  &:hover{
+    box-shadow: 0 2px 5px black;
+  }
 `;
 
 export const ItemImage = styled.img`
   width: 100%;
   border-radius: 8px;
-
+  &:hover{
+    box-shadow: 0 2px 5px black;
+  }
 `;
 
 export const ItemDetails = styled.div`
   margin-top: 10px;
   font-size: x-large;
-
 `;

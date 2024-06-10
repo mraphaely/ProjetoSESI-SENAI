@@ -12,15 +12,17 @@
 }
 .Social{
     background-color: #1E984F;
-    width: 20px;
+    width: 28px;
 }
 .links{
-    background-color: #1E984F;
+    background-color: #00000000;
     text-decoration: none;
     color: #fff;
+    font-size: larger;
 }
 .LinkD{
     background-color: #00000000;
     color: #fff;
     text-decoration: none;
 }
+

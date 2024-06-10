@@ -4,7 +4,7 @@ import { Container, Title, ItemContainer, Item, ItemDetails, ItemImage} from "..
      return(
             <Container>
               <Title>Garrafas</Title>
-              <ItemContainer>
+              <ItemContainer className="ItemContainer">
                 <Item>
                   <ItemImage src="https://th.bing.com/th/id/OIP.P4emAcIqB90aGbattn62PwHaHa?rs=1&pid=ImgDetMain" alt="Garrafa 1" />
                   <ItemDetails>
