@@ -1,15 +1,14 @@
-import { Button, Main } from '../styles/Button';
-import Titulo from '../components/Text';
-
-
+import { Link } from "react-router-dom";
+import { Main } from "../styles/PagRa";
 const Filter = () => {
 
     return (
+
         <Main>
-            <Titulo></Titulo>
-            <Button href="#">Login Discente</Button>
-            <Button href="#">Login Fiscais de disciplina</Button>
-        </Main>
+            <h1>Olá, quem é você?</h1>
+        <Link to='pagra'><h1>Discente</h1></Link>
+        <Link to='pagco'><h1>Fical de Disciplina</h1></Link>
+       </Main>
     )
 
 }

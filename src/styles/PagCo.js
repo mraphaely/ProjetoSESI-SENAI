@@ -58,3 +58,16 @@ export const Fundo = styled.div `
     background-color: ${Cor.ice_White};
     z-index: 0;
 `
+export const InputNomeCo = styled.input`
+border-radius: 5px;
+background-color: ${Cor.White};
+margin-top: 15px;
+border-color: ${Cor.White};
+height: 25px;
+width: 210px;
+`
+export const ImgIniciaisCo = styled.img`
+margin-bottom: 50px;
+width: 100px;
+height: 100px;
+`
