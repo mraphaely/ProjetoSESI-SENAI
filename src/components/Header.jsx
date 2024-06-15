@@ -11,7 +11,7 @@ const Header = () => {
           <img src={logoSS} alt="Logo SESI SENAI" className='Logo' />
           </Link>
             {/* <span className='links'> | </span> */}
-            <Link to={'sobre'}  className='links'> Sobre </Link>
+            <Link to={'login'}  className='links'> Login </Link>
         </Card>
         </>
     )

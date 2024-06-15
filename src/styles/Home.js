@@ -26,8 +26,9 @@ export const Suporte = styled.section `
 `
 export const Div1 = styled.div`
     background-color: ${Cor.Blue};
-    width: 300px;
-    height: 300px;
+    max-width: 500px;
+    padding: 45px;
+    height: 290px;
     border-radius: 50px;
     position: absolute;
     z-index: 1;
@@ -45,7 +46,9 @@ export const Div1 = styled.div`
 `
 export const Div2 = styled.div`
     background-color: ${Cor.vibration_Green};
-    width: 300px;
+    max-width: 500px;
+    padding: 55px;
+    height: 290px;
     height: 300px;
     border-radius: 50px;
     position: absolute;
@@ -64,7 +67,9 @@ export const Div2 = styled.div`
 `
 export const Div3 = styled.div`
     background-color: ${Cor.vibration_Green};
-    width: 300px;
+    max-width: 500px;
+    padding: 35px;
+    height: 290px;
     height: 300px;
     border-radius: 50px;
     position: absolute;
@@ -83,7 +88,9 @@ export const Div3 = styled.div`
 `
 export const Div4 = styled.div`
     background-color: ${Cor.Blue};
-    width: 300px;
+    max-width: 500px;
+    padding: 65px;
+    height: 290px;
     height: 300px;
     border-radius: 50px;
     position: absolute;

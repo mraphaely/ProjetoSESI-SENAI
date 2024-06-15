@@ -17,7 +17,7 @@ export const Container = styled.div`
 export const Title = styled.h1`
   color: ${Cor.Dark_Green};
   font-size: 40px;
-  margin: 10px 900px 100px 10px;
+  margin: 10px 650px 100px 10px;
   background-color:  #00000000;
 `;
 
